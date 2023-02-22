@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<!-- Please see the LICENSE.md file included with this distribution for attribution and copyright information. -->
+
+<root version='3.3' release='3'>
+	<properties>
+		<name>Armor hit brackets</name>
+		<version>3.5</version>
+		<author>Dan</author>
+		<description>Armor hit brackets</description>
+		<ruleset>
+			<name>5E</name>
+		</ruleset>
+		<loadorder>34</loadorder>
+	</properties>
+
+	<announcement text="Armor hit brackets baby" font="emotefont" />
+
+	<base>
+		<!-- Scripts -->
+		<script name="ArmorBracketManager" file="scripts/manager_armor_brackets.lua" />
+	</base>
+</root>
